@@ -1,0 +1,550 @@
+.row-item {
+  margin-top: 15px;
+  font-weight: bold;
+}
+.btn-update {
+  width: 30% !important;
+  height: 100% !important;
+  border-radius: 15px !important;
+  background-color: #3acce1 !important;
+  background-position: center !important;
+  position: relative;
+  text-transform: capitalize !important;
+  margin-left: 9% !important;
+}
+.buttonUpdateUser {
+  position: relative;
+  left: 19.5%;
+  padding: 15px 120px;
+  border-radius: 8px;
+  background: #3acce1;
+  appearance: none;
+  outline: 0;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+}
+.buttonAddUser {
+  position: relative;
+  left: 31.5%;
+  padding: 15px 120px;
+  border-radius: 8px;
+  background: #3acce1;
+  appearance: none;
+  outline: 0;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+}
+.buttonUpdateFAQ {
+  position: relative;
+  left: 31%;
+  padding: 16px 100px;
+  border-radius: 8px;
+  background: #3acce1;
+  appearance: none;
+  outline: 0;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+}
+.buttonAddFAQ {
+  position: relative;
+  left: 42.5%;
+  padding: 16px 100px;
+  border-radius: 8px;
+  background: #3acce1;
+  appearance: none;
+  outline: 0;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+}
+.addButtonRespo {
+  display: block;
+  background: #3acce1;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: none;
+  color: #fff;
+  position: relative;
+  left: 600%;
+  top: -30px;
+}
+.editButtonFAQ {
+  margin-right: 10px;
+  background: #3497fd;
+  border-radius: 6px;
+  width: 150px;
+  border: none;
+  color: #fff;
+  height: 35px;
+  position: relative;
+  left: 38%;
+}
+.deleteButtonFAQ {
+  margin-left: 10px;
+  background: red;
+  border-radius: 6px;
+  width: 150px;
+  border: none;
+  color: #fff;
+  height: 35px;
+  position: relative;
+  left: 38%;
+}
+.editButtonUser {
+  margin-right: 10px;
+  background: #3497fd;
+  border-radius: 6px;
+  width: 150px;
+  border: none;
+  color: #fff;
+  height: 35px;
+  position: relative;
+  left: 41%;
+}
+.deleteButtonUser {
+  margin-left: 10px;
+  background: red;
+  border-radius: 6px;
+  width: 150px;
+  border: none;
+  color: #fff;
+  height: 35px;
+  position: relative;
+  left: 41%;
+}
+.filterButtonsMain {
+  float: right;
+}
+.filterButtonsMain button:hover {
+  background: #454f63;
+}
+.filterButtonsYonetici {
+  border: 1px solid #fff;
+  background: #3acce1;
+  border-radius: 12px 0px 0px 12px;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  font-weight: 600;
+  margin: -1px;
+}
+.filterButtonsEgitmen {
+  border: 1px solid #fff;
+  background: #3acce1;
+  width: 120px;
+  height: 40px;
+  color: #fff;
+  font-weight: 600;
+  margin: -1px;
+}
+.filterButtonsOperasyon {
+  border: 1px solid #fff;
+  background: #3acce1;
+  width: 120px;
+  height: 40px;
+  color: #fff;
+  font-weight: 600;
+  margin: -1px;
+}
+.filterButtonsOgrenci {
+  border: 1px solid #fff;
+  background: #3acce1;
+  border-radius: 0px 12px 12px 0px;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  font-weight: 600;
+  margin: -1px;
+}
+
+@media (max-width: 320px) {
+  .addButtonRespo {
+    height: 100px;
+    width: 70px;
+    position: relative;
+    left: 500%;
+    top: 10px;
+  }
+  .editButtonFAQ {
+    height: 50px;
+    width: 80px;
+    position: relative;
+    left: 20%;
+  }
+  .deleteButtonFAQ {
+    height: 50px;
+    width: 80px;
+    position: relative;
+    left: 9%;
+  }
+  .editButtonUser {
+    margin-right: 50px;
+    height: 50px;
+    width: 80px;
+    position: relative;
+    left: 30%;
+  }
+  .deleteButtonUser {
+    height: 50px;
+    width: 80px;
+    position: relative;
+    left: 22%;
+  }
+  .buttonAddUser {
+    position: relative;
+    left: 20%;
+    top: 10%;
+    padding: 15px 50px;
+  }
+  .buttonUpdateUser {
+    position: relative;
+    left: 12%;
+    top: 10%;
+    padding: 15px 50px;
+  }
+  .buttonUpdateFAQ {
+    position: relative;
+    left: 15%;
+    top: 10%;
+    padding: 15px 50px;
+  }
+  .buttonAddFAQ {
+    position: relative;
+    left: 20%;
+    top: 10%;
+    padding: 15px 50px;
+  }
+  .filterButtonsMain {
+    position: relative;
+    left: 10%;
+  }
+  .filterButtonsYonetici {
+    width: 110px;
+    height: 40px;
+    border-radius: 0px;
+  }
+  .filterButtonsOgrenci {
+    width: 110px;
+    height: 40px;
+    border-radius: 0px;
+  }
+  .filterButtonsOperasyon {
+    width: 110px;
+  }
+  .filterButtonsEgitmen {
+    width: 110px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 360px) {
+  .addButtonRespo {
+    height: 100px;
+    width: 70px;
+    position: relative;
+    left: 445%;
+    top: 10px;
+  }
+  .editButtonFAQ {
+    height: 50px;
+    width: 80px;
+    position: relative;
+    left: 20%;
+  }
+  .deleteButtonFAQ {
+    height: 50px;
+    width: 80px;
+    position: relative;
+    left: 9%;
+  }
+  .editButtonUser {
+    margin-right: 50px;
+    height: 50px;
+    width: 80px;
+    position: relative;
+    left: 30%;
+  }
+  .deleteButtonUser {
+    height: 50px;
+    width: 80px;
+    position: relative;
+    left: 22%;
+  }
+  .buttonAddUser {
+    position: relative;
+    left: 20%;
+    top: 10%;
+    padding: 15px 50px;
+  }
+  .buttonUpdateUser {
+    position: relative;
+    left: 12%;
+    top: 10%;
+    padding: 15px 50px;
+  }
+  .buttonUpdateFAQ {
+    position: relative;
+    left: 15%;
+    top: 10%;
+    padding: 15px 50px;
+  }
+  .buttonAddFAQ {
+    position: relative;
+    left: 20%;
+    top: 10%;
+    padding: 15px 50px;
+  }
+  .filterButtonsMain {
+    position: relative;
+    left: 15%;
+  }
+  .filterButtonsYonetici {
+    width: 110px;
+    height: 40px;
+    border-radius: 0px;
+  }
+  .filterButtonsOgrenci {
+    width: 110px;
+    height: 40px;
+    border-radius: 0px;
+  }
+  .filterButtonsOperasyon {
+    width: 110px;
+  }
+  .filterButtonsEgitmen {
+    width: 110px;
+  }
+}
+@media (min-width: 361px) and (max-width: 375px) {
+  .addButtonRespo {
+    height: 100px;
+    width: 70px;
+    position: relative;
+    left: 430%;
+    top: 10px;
+  }
+  .editButtonFAQ {
+    height: 50px;
+    width: 80px;
+    position: relative;
+    left: 20%;
+  }
+  .deleteButtonFAQ {
+    height: 50px;
+    width: 80px;
+    position: relative;
+    left: 9%;
+  }
+  .editButtonUser {
+    margin-right: 50px;
+    height: 50px;
+    width: 80px;
+    position: relative;
+    left: 30%;
+  }
+  .deleteButtonUser {
+    height: 50px;
+    width: 80px;
+    position: relative;
+    left: 22%;
+  }
+  .buttonAddUser {
+    position: relative;
+    left: 20%;
+    top: 10%;
+    padding: 15px 50px;
+  }
+  .buttonUpdateUser {
+    position: relative;
+    left: 12%;
+    top: 10%;
+    padding: 15px 50px;
+  }
+  .buttonUpdateFAQ {
+    position: relative;
+    left: 15%;
+    top: 10%;
+    padding: 15px 50px;
+  }
+  .buttonAddFAQ {
+    position: relative;
+    left: 20%;
+    top: 10%;
+    padding: 15px 50px;
+  }
+  .filterButtonsMain {
+    width: 80%;
+    position: relative;
+    left: -4%;
+  }
+  .filterButtonsYonetici {
+    width: 110px;
+    height: 40px;
+    border-radius: 0px;
+  }
+  .filterButtonsOgrenci {
+    width: 110px;
+    height: 40px;
+    border-radius: 0px;
+  }
+  .filterButtonsOperasyon {
+    width: 110px;
+  }
+  .filterButtonsEgitmen {
+    width: 110px;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 426px) {
+  .addButtonRespo {
+    height: 100px;
+    width: 70px;
+    position: relative;
+    left: 400%;
+    top: 10px;
+  }
+  .editButtonFAQ {
+    height: 50px;
+    width: 80px;
+    position: relative;
+    left: 20%;
+  }
+  .deleteButtonFAQ {
+    height: 50px;
+    width: 80px;
+    position: relative;
+    left: 9%;
+  }
+  .editButtonUser {
+    margin-right: 50px;
+    height: 50px;
+    width: 80px;
+    position: relative;
+    left: 30%;
+  }
+  .deleteButtonUser {
+    height: 50px;
+    width: 80px;
+    position: relative;
+    left: 22%;
+  }
+  .buttonAddUser {
+    position: relative;
+    left: 20%;
+    top: 10%;
+    padding: 15px 50px;
+  }
+  .buttonUpdateUser {
+    position: relative;
+    left: 12%;
+    top: 10%;
+    padding: 15px 50px;
+  }
+  .buttonUpdateFAQ {
+    position: relative;
+    left: 15%;
+    top: 10%;
+    padding: 15px 50px;
+  }
+  .buttonAddFAQ {
+    position: relative;
+    left: 20%;
+    top: 10%;
+    padding: 15px 50px;
+  }
+  .filterButtonsMain {
+    width: 80%;
+  }
+  .filterButtonsYonetici {
+    width: 110px;
+    height: 40px;
+    border-radius: 0px;
+  }
+  .filterButtonsOgrenci {
+    width: 110px;
+    height: 40px;
+    border-radius: 0px;
+  }
+  .filterButtonsOperasyon {
+    width: 110px;
+  }
+  .filterButtonsEgitmen {
+    width: 110px;
+  }
+}
+@media (min-width: 427px) and (max-width: 1200px) {
+  .addButtonRespo {
+    position: relative;
+    left: 350%;
+    top: 20px;
+  }
+  .editButtonFAQ {
+    position: relative;
+    left: 30%;
+  }
+  .deleteButtonFAQ {
+    position: relative;
+    left: 26%;
+  }
+  .editButtonUser {
+    margin-right: 50px;
+    position: relative;
+    left: 30%;
+  }
+  .deleteButtonUser {
+    position: relative;
+    left: 26%;
+  }
+  .buttonAddUser {
+    position: relative;
+    left: -77%;
+    top: 10%;
+  }
+  .buttonUpdateUser {
+    position: relative;
+    left: -108%;
+    top: 10%;
+  }
+  .buttonUpdateFAQ {
+    position: relative;
+    left: -80%;
+    top: 10%;
+  }
+  .buttonAddFAQ {
+    position: relative;
+    left: -48%;
+    top: 10%;
+  }
+}
+
+@media (max-width: 767px) {
+  .btn-update {
+    right: 5% !important;
+  }
+}
+@media (width: 768px) {
+  .btn-update {
+    right: 1%;
+  }
+}
+@media (width: 1024px) {
+  .btn-update {
+    right: 1%;
+  }
+}
+.add-btn-col {
+  bottom: 5% !important;
+  right: -60% !important;
+}
+@media (max-width: 503px) {
+  .btn-update {
+    width: 100% !important;
+  }
+  .add-btn-col {
+    bottom: 8% !important;
+    right: -50% !important;
+  }
+}

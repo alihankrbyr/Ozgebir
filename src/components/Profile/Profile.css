@@ -1,0 +1,55 @@
+
+.CardTitle-1{
+    font-weight: bolder;
+}
+.btn-update{
+    background-color: #3ACCE1 !important;
+    width: 40%;
+    height: 99%;
+    border-radius: 10px !important;
+}
+
+Label{
+    color: black !important;
+    font-weight:normal;
+}
+
+.avatar1 {
+    border:  7px solid #ffffff;
+    border-radius: 50%;
+    display: flex;
+    
+}
+.author1{
+    margin:-75px 0 0 0;
+}
+.card-user .image {
+    height: 160px !important;
+}
+
+.card-user .card-body {
+    min-height: 160px !important;
+}
+
+.title-profilName{
+    font-weight: 800;
+
+}
+.text-profilTip{
+    padding-right: 0% !important;
+    
+}
+.title-hg{
+    padding-left: 10%;
+    padding-top: 7%;
+    color:blue;
+    font-weight: 700;
+    font-size: 125%;
+}
+.text-msg{
+    padding-left: 10%;
+    /* padding-top: 2%; */
+    color:blue;
+    font-weight: 500;
+    font-size: 100%;
+}

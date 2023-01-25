@@ -1,0 +1,93 @@
+.content {
+  width: 100%;
+}
+
+.table-recommendations {
+  width: 100% !important;
+  white-space: nowrap;
+  table-layout: fixed;
+  display: block;
+  overflow-x: auto;
+}
+
+.name {
+  font-size: 90% !important;
+}
+
+.blank-td {
+  width: 100px !important;
+}
+
+.device-explanation {
+  text-decoration: none;
+  font-size: 90% !important;
+  width: 100%;
+  max-width: 420px;
+  overflow: hidden !important; /* Verilen genişlikten (150px) artanı gizlemesini istiyoruz */
+  white-space: nowrap !important; /* Yazıyı tek satırla sınırlandırıyoruz */
+  text-overflow: ellipsis !important; /* Yazının kesildiği yerden üç nokta vermesini sağlıyoruz*/
+}
+
+.thead-recommendations {
+  text-transform: capitalize;
+}
+
+.table-header {
+  color: #282828;
+  font-weight: 700;
+  font-size: larger;
+}
+
+.sort-icon {
+  margin-left: 3px;
+}
+
+.pagination {
+  display: inline-block;
+  justify-content: center;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.pagination a.active {
+  background-color: #3acce1;
+  color: white;
+  border-radius: 18px;
+}
+
+.pagination a:hover:not(.active) {
+  transition: 0.3s;
+  background-color: #3acce1;
+  color: white;
+  border-radius: 18px;
+}
+
+@media (max-width: 1662px) {
+  .btn-watch {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-watch i {
+    width: auto;
+  }
+  .btn-Edit {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-Edit i {
+    width: auto;
+  }
+  .btn-Delete {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-Delete i {
+    width: auto;
+  }
+}

@@ -1,0 +1,130 @@
+.CardTitle {
+  color: rgb(0, 0, 0) !important;
+  font-weight: bold;
+  font-size: 22px;
+  font-style: unset;
+}
+.text-top {
+  color: #707070 !important;
+  font-weight: bold;
+  text-transform: capitalize !important;
+}
+.text-number {
+  color: #707070 !important;
+  font-weight: bolder;
+}
+.video-title {
+  text-decoration: none;
+  font-size: 90% !important;
+}
+.video-explanation {
+  text-decoration: none;
+  font-size: 90% !important;
+  max-width: 170px;
+  overflow: hidden !important; /* To hide exceding characters (more than 150px) */
+  white-space: nowrap !important; /* Limiting the content to a single line */
+  text-overflow: ellipsis !important; /* To end the exceding line with ellipsis */
+}
+.btn-edit {
+  background-color: #3497fd !important;
+  font-weight: normal;
+  text-decoration: none;
+  border-radius: 10px !important;
+  text-transform: capitalize !important;
+  height: auto;
+  width: auto;
+  display: flex;
+}
+.btn-delete {
+  background-color: red !important;
+  font-weight: normal;
+  text-decoration: none;
+  border-radius: 10px !important;
+  text-transform: capitalize !important;
+  height: auto;
+  width: auto;
+  display: flex;
+}
+.btn-watch {
+  font-weight: normal;
+  text-decoration: none;
+  border-radius: 10px !important;
+  text-transform: capitalize !important;
+  background-color: #78849e !important;
+  height: auto;
+  width: auto;
+  display: flex;
+}
+
+@media (max-width: 1662px) {
+  .btn-watch {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-watch i {
+    width: 100%;
+  }
+  .btn-edit {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-edit i {
+    width: 100%;
+  }
+  .btn-delete {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-delete i {
+    width: 100%;
+  }
+}
+
+.space-td {
+  width: 120px !important;
+}
+
+.disabled-pg {
+  color: grey !important;
+}
+
+.add-videoButton {
+  height: 100%;
+  width: 100%;
+  border-radius: 50% !important;
+  background-color: #3acce1 !important;
+  text-transform: capitalize !important;
+}
+.row-height {
+  height: 60px !important;
+}
+
+.bottom-row {
+  position: fixed;
+  bottom: 4.5% !important;
+  right: 4.5% !important;
+}
+@media (max-width: 1000px) {
+  .bottom-row {
+    right: 10% !important;
+  }
+}
+.btn-edit svg {
+  margin-right: 10px !important;
+}
+.btn-delete svg,
+i {
+  margin-right: 10px !important;
+}
+.btn-watch svg,
+i {
+  margin-right: 10px !important;
+}
+.attending-physicians-name {
+  text-decoration: none;
+  font-size: 90% !important;
+}
+.patients-name {
+  text-decoration: none;
+  font-size: 90% !important;
+}

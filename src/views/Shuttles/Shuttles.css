@@ -1,0 +1,61 @@
+.button-all {
+  background-color: #3497fd !important;
+  font-weight: normal;
+  text-decoration: none;
+  border-radius: 10px !important;
+  text-transform: capitalize !important;
+  height: auto;
+  width: auto;
+  display: flex;
+}
+.ShuttlesDelete {
+  background-color: red !important;
+  font-weight: normal;
+  text-decoration: none;
+  border-radius: 10px !important;
+  text-transform: capitalize !important;
+  height: auto;
+  width: auto;
+  display: flex;
+  
+}
+.ShuttlesDelete svg,
+i {
+  margin-right: 10px !important;
+}
+.button-all svg {
+  margin-right: 10px !important;
+}
+#ShuttlesAddButton {
+  background-color: #3acce1 !important;
+  height: 80px;
+  width: 80px;
+}
+.ServicePagination {
+  justify-content: center;
+  display: flex;
+}
+
+.btn-round {
+  background-color: #3497fd !important;
+}
+.bottom-row {
+  position: fixed;
+  bottom: 5%;
+  right: 15%;
+}
+.CardTitle {
+  color: rgb(0, 0, 0) !important;
+  font-weight: bold;
+  font-size: 22px;
+  font-style: unset;
+}
+.text-number {
+  color: #707070 !important;
+  font-weight: bolder;
+}
+.text-top {
+  color: #707070 !important;
+  font-weight: bold;
+  text-transform: capitalize !important;
+}

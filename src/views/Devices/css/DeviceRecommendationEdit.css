@@ -1,0 +1,105 @@
+.row-item {
+  margin-top: 15px;
+}
+
+.btn-edit {
+  border-radius: 50%;
+}
+
+.file-container {
+  text-align: center;
+  border: 2px dotted gray;
+  border-radius: 12px;
+  height: 230px;
+}
+
+.video-container {
+  border: none;
+  width: 100% !important;
+  background-size: cover;
+  background-image: url("../../../assets/img/doktorFoto.jpg");
+  background-repeat: no-repeat;
+  z-index: 1 !important;
+}
+
+.video-container::before {
+  content: "";
+  position: absolute;
+  width: 98%;
+  height: 100%;
+  margin-left: 1%;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  z-index: 1 !important;
+  border-radius: 12px;
+}
+
+.video-container-device {
+  border: none;
+  width: 100% !important;
+  background-size: cover;
+  background-image: url("../../../assets/img/doktorFoto.jpg");
+  background-repeat: no-repeat;
+  z-index: 1 !important;
+}
+
+.video-container-device::before {
+  content: "";
+  position: absolute;
+  width: 99%;
+  height: 100%;
+  margin-left: 0.5%;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  z-index: 1 !important;
+  border-radius: 12px;
+}
+
+.file-container em {
+  color: white;
+  font-weight: 600;
+}
+
+.file-container p {
+  color: white;
+  font-size: 40px;
+}
+
+.edit {
+  margin-top: 4%;
+  margin-right: 0.4% !important;
+  float: right;
+}
+
+.editButton {
+  background-color: #3acce1;
+  border: none;
+  width: 250px;
+  height: 40px;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.video-row {
+  margin-top: 1%;
+}
+.dropzone-inside {
+  padding-top: 5%;
+  position: relative;
+  z-index: 3;
+}
+
+@media only screen and (max-width: 725px) {
+  .video-row {
+    margin-top: 3%;
+  }
+}
+
+@media only screen and (max-width: 448px) {
+  .video-row {
+    margin-top: 5%;
+  }
+}

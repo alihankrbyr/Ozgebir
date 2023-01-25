@@ -1,0 +1,81 @@
+.image {
+  background-color: rgb(194, 243, 246);
+}
+.DashBoardProfileButton {
+  background-color: #5773ff !important;
+}
+
+#bodyCard {
+  margin-top: 4%;
+  margin-bottom: -10%;
+  max-height: 30% !important;
+  margin-left: 1% !important;
+}
+#WelcomeTitle {
+  color: #5773ff;
+  margin-top: 2%;
+  margin-left: 3%;
+}
+
+.media {
+  color: #5773ff;
+}
+.service {
+  color: #e39ff4;
+}
+
+#WrongChart {
+  color: #665eff;
+}
+#CorrectChart {
+  color: #51cacf;
+}
+#Video {
+  color: #3acce1;
+}
+#Activity {
+  color: #3497fd;
+}
+#Complete {
+  color: #665eff;
+}
+#Incomplete {
+  color: #d2d4d8;
+}
+
+#BtnRoute {
+  border-color: #ffffff !important;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+#BtnRoute:hover {
+  background-color: transparent !important;
+  border-color: #ffffff !important;
+  border: none;
+  outline: none;
+}
+.card-stats {
+  margin-top: 2% !important;
+}
+@media (max-width: 991px) {
+  .card-stats {
+    
+    margin-top: 2% !important;
+    width: 102% !important;
+    margin-left: -1% !important;
+  }
+  .card-col {
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
+  }
+  #col1{margin-top:  1% !important;
+
+  }
+  #col2{margin-top:  1% !important;
+
+  }
+  .card-row {
+    padding-top: 2% !important;
+  }
+}

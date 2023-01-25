@@ -1,0 +1,123 @@
+.CardTitle {
+  color: rgb(0, 0, 0) !important;
+  font-weight: bold;
+  font-size: 22px;
+  font-style: unset;
+}
+.text-top {
+  color: #707070 !important;
+  font-weight: bold;
+  text-transform: capitalize !important;
+}
+.text-number {
+  color: #707070 !important;
+  font-weight: bolder;
+}
+.video-title {
+  text-decoration: none;
+  font-size: 90% !important;
+}
+.video-explanation {
+  text-decoration: none;
+  font-size: 90% !important;
+  max-width: 420px;
+  overflow: hidden !important; /* Verilen genişlikten (150px) artanı gizlemesini istiyoruz */
+  white-space: nowrap !important; /* Yazıyı tek satırla sınırlandırıyoruz */
+  text-overflow: ellipsis !important; /* Yazının kesildiği yerden üç nokta vermesini sağlıyoruz*/
+}
+.btn-Edit {
+  background-color: #3497fd !important;
+  font-weight: normal;
+  text-decoration: none;
+  border-radius: 10px !important;
+  text-transform: capitalize !important;
+  height: auto;
+  width: auto;
+  display: flex;
+}
+.btn-Delete {
+  background-color: red !important;
+  font-weight: normal;
+  text-decoration: none;
+  border-radius: 10px !important;
+  text-transform: capitalize !important;
+  height: auto;
+  width: auto;
+  display: flex;
+}
+.btn-watch {
+  font-weight: normal;
+  text-decoration: none;
+  border-radius: 10px !important;
+  text-transform: capitalize !important;
+  background-color: #78849e !important;
+  height: auto;
+  width: auto;
+  display: flex;
+}
+.space-td {
+  width: 120px !important;
+}
+
+.disabled-pg {
+  color: grey !important;
+}
+
+.add-videoButton {
+  height: 100%;
+  width: 100%;
+  border-radius: 50% !important;
+  background-color: #3acce1 !important;
+  text-transform: capitalize !important;
+}
+.row-height {
+  height: 60px !important;
+}
+
+.bottom-row {
+  position: fixed;
+  bottom: 4.5% !important;
+  right: 4.5% !important;
+}
+@media (max-width: 1000px) {
+  .bottom-row {
+    right: 10% !important;
+  }
+}
+.btn-Edit svg {
+  margin-right: 10px !important;
+}
+.btn-Delete svg,
+i {
+  margin-right: 10px !important;
+}
+.btn-watch svg,
+i {
+  margin-right: 10px !important;
+}
+@media (max-width: 1662px) {
+  .btn-watch {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-watch i {
+    width: 100%;
+  }
+  .btn-Edit {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-Edit i {
+    width: 100%;
+  }
+  .btn-Delete {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-Delete i {
+    width: 100%;
+  }
+}
+.content {
+  margin-top: 1.75% !important;
+}

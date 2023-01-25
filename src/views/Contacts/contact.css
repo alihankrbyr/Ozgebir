@@ -1,0 +1,33 @@
+.td-app {
+  font-size: 13px;
+}
+.th-app {
+  font-size: 12px !important;
+}
+.bottom-row {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+}
+.pure-btn {
+  background-color: #3acce1 !important;
+  width: 80px;
+  height: 80px;
+  border-radius: 50% !important;
+}
+
+.btn-pri {
+  background-color: #3497fd !important;
+  border-radius: 10px !important;
+}
+.delete {
+  background-color: #ff4748 !important;
+  border-radius: 10px !important;
+}
+.form-label {
+  font-weight: bold;
+  color: black !important;
+}
+.row-item {
+  margin-top: 15px;
+}
